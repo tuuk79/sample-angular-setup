@@ -1,14 +1,19 @@
 {
-  "name": "sample-express-app",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^4.16.2"
-  }
+	"name": "sample-angular-setup",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Steve Yoo",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "^4.16.2",
+		"lodash": "^4.17.10"
+	},
+	"devDependencies": {
+		"webpack": "^4.16.1",
+		"webpack-cli": "^3.1.0"
+	}
 }
